@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Zadaća 3 - Mačke</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,700;1,400&family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>Mačke</h1>
+
+  <div class="Mačke">
+    <img src="https://i.pinimg.com/originals/b2/60/94/b26094970505bcd59c2e5fe8b6f41cf0.jpg" alt="Mačka 1" class="Cats">
+    <img src="https://i.redd.it/kg82lbnu0ste1.png" alt="Mačka 2" class="Cats">
+    <img src="https://preview.redd.it/such-a-cute-little-kitten-who-can-refuse-v0-fmeljde093dc1.jpeg?width=1080&crop=smart&auto=webp&s=b0eeb86cb48b7a3576cbb1db5f305d176ea04f26" alt="Mačka 3" class="Cats">
+  </div>
+
+  <p><strong>Mačke</strong> su jedne od najpopularnijih kućnih ljubimaca na svijetu.  
+    Pozitivno djeluju na raspoloženje i stvaraju osjećaj mira i topline.  
+    Spavaju i do 16 sati dnevno — a ostalih 8 provode smišljajući kako će ti srušiti biljku, olovku ili čašu vode.
+  </p>
+
+  <p>Iako se često kaže da mačke vole samo sebe, istina je da one jednostavno razumiju vrijednost prostora, tišine i trenutka.  
+    One nas uče kako zastati, uživati u toplini sunca ili jednostavno biti prisutan.  
+    Ne možeš ih natjerati da dođu kada ti to želiš, ali će se same pojaviti kada osjete da si im potreban.  
+    <br><span class="citat">One znaju da prave veze ne nastaju iz prisile, nego iz povjerenja.</span></br>
+  </p>
+
+  <p><span class="citat">Ako i ti voliš mačke, na pravom si mjestu!</span></p>
+
+  <div class="info">
+    <h2>Zanimljivosti o mačkama</h2>
+    <ul>
+      <li>Mačke imaju prosječno <strong>32 mišića</strong> u svakom uhu.</li>
+      <li>Njihov purr zvuk može imati <em>frekvenciju od 25 Hz</em> – ista kao vibracije koje potiču <em>ozdravljenje</em> kostiju!</li>
+      <li>Mačke se mogu okrenuti u zraku i doskočiti na noge zahvaljujući <strong>refleksu uspravljanja</strong>.</li>
+    </ul>
+
+    <h3>Kako se brinuti o mački:</h3>
+    <ol>
+      <li>Omogućiti im svježu vodu i hranu</li>
+      <li>Redovito čistiti pijesak</li>
+      <li>Odvojiti vrijeme za igru svaki dan</li>
+    </ol>
+
+    <p><span class="citat">Bonus znanstvena činjenica: formula za vodu je H<sub>2</sub>O, a energija mačke koja te gleda dok jedeš je ≈ m·c<sup>2</sup></span></p>
+  </div>
+
+  <div class="citati">
+    <p class="citat-lijevi">“meow”</p>
+    <p class="citat-desni">“purr”</p>
+  </div>
+
+  <form action="https://formspree.io/f/xnnoerzr" method="POST">
+    <fieldset>
+      <legend>Podijeli svoje iskustvo s mačkama 🐱</legend>
+
+      <label for="ime">Ime:</label><br>
+      <input type="text" id="ime" name="Ime" placeholder="Unesi svoje ime" required><br><br>
+
+      <label for="datumRod">Datum rođenja:</label><br>
+      <input type="date" id="datumRod" name="Datum rođenja"><br><br>
+
+      <label for="email">E-mail:</label><br>
+      <input type="email" id="email" name="Email" placeholder="Unesi svoj e-mail" required><br><br>
+
+      <label>Spol:</label><br>
+      <input type="radio" id="zenski" name="Spol" value="Ženski">
+      <label for="zenski">Ženski</label><br>
+      <input type="radio" id="muski" name="Spol" value="Muški">
+      <label for="muski">Muški</label><br><br>
+
+      <label>Koje ljubimce imaš?</label><br>
+      <input type="checkbox" id="macka" name="Ljubimac" value="Mačka">
+      <label for="macka">Mačka</label><br>
+      <input type="checkbox" id="pas" name="Ljubimac" value="Pas">
+      <label for="pas">Pas</label><br>
+      <input type="checkbox" id="riba" name="Ljubimac" value="Riba">
+      <label for="riba">Riba</label><br>
+      <input type="checkbox" id="Hrčak" name="Ljubimac" value="Hrčak">
+      <label for="riba">Hrčak</label><br>
+      <input type="checkbox" id="Zec" name="Ljubimac" value="Zec">
+      <label for="riba">Zec</label><br>
+      <input type="checkbox" id="Kornjača" name="Ljubimac" value="Kornjača">
+      <label for="riba">Kornjača</label><br>
+      <input type="checkbox" id="ostalo" name="Ljubimac" value="Ostalo">
+      <label for="ostalo">Ostalo</label><br><br>
+
+      <label for="omiljena">Omiljena mačja pasmina:</label><br>
+      <input list="pasmina" id="omiljena" name="Omiljena pasmina" placeholder="Odaberi pasminu">
+      <datalist id="pasmina">
+        <option value="Sijamska">
+        <option value="Maine Coon">
+        <option value="Perzijska">
+        <option value="Bengalska">
+        <option value="Sfinks">
+        <option value="Ostalo">
+      </datalist><br><br>
+
+      <label for="aktivnost">Najdraža aktivnost tvoje mačke:</label><br>
+      <select id="aktivnost" name="Aktivnost">
+        <option value="spavanje">Spavanje</option>
+        <option value="igranje">Igranje</option>
+        <option value="gledanje kroz prozor">Gledanje kroz prozor</option>
+        <option value="predenje">Predenje</option>
+      </select><br><br>
+
+      <label for="poruka">Kratka poruka:</label><br>
+      <input type="text" id="poruka" name="Poruka" placeholder="Napiši nešto o svojoj mački"><br><br>
+
+      <button type="submit">Pošalji</button>
+      <button type="reset">Obriši</button>
+    </fieldset>
+  </form>
+</body>
+</html>
